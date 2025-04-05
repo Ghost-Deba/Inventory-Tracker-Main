@@ -104,6 +104,6 @@ local function sendWebhook()
 end
 
 --═══════ Auto Send ═══════--
-while wait(getgenv().Config.UpdateInterval) do
     sendWebhook()
+while wait(getgenv().Config.UpdateInterval) do
 end
